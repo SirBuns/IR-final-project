@@ -25,7 +25,7 @@ public class Classifier {
 	
 	public void Classifier() throws IOException, ParseException {
 		//no need of this function - we only apply this once to create the Index folder.
-		//createIndex();
+		createIndex();
 	}
 	
 	public void init_vars(String q) throws IOException, ParseException {
