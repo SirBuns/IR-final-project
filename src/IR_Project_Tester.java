@@ -30,7 +30,7 @@ public class IR_Project_Tester{
 	      try {
 	         tester = new IR_Project_Tester();
 	         // as in classifier this is a one-time function that we need to apply only once to create the index directory.
-	         //tester.createIndex();
+	         tester.createIndex();
 	         
 	         //create a classifier.
 	         Classifier cls = new Classifier();
